@@ -1,0 +1,7 @@
+{
+  "name": "sisgersenapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
