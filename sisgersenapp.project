@@ -1,0 +1,4 @@
+-- Dependencias
+
+    -- Swipper (versão recomendada "^10.2.0")
+    npm install swiper@latest
