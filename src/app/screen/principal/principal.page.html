@@ -31,10 +31,20 @@
 
   <section id="sectionD">
 
-    <swiper-container>
-      <swiper-slide>Slide 1</swiper-slide>
-      <swiper-slide>Slide 2</swiper-slide>
-      <swiper-slide>Slide 3</swiper-slide>
+    <swiper-container 
+      slides-per-view="3" 
+      speed="1200" 
+      loop="false" 
+      css-mode="false" 
+      navigation="false" 
+      pagination="false"
+      scrollbar="false">
+      <swiper-slide *ngFor="let item of [1,2,3,4,5,6,7,8]" lazy="false">
+        <div class="card">
+          <ion-icon name="shield-half-outline"></ion-icon>
+          <p>Logins</p>
+        </div>
+      </swiper-slide>
     </swiper-container>
     
   </section>

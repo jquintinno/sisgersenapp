@@ -31,4 +31,26 @@
   padding: 10px;
 }
 
-#sectionD { } 
+#sectionD { 
+  swiper-container {
+    margin-top: 20px;
+    padding: 10px;
+    .card {
+      height: 120px;
+      // border: red 1px dashed;
+      margin: 4px;
+      background: #ebf1ff;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      ion-icon {
+        font-size: 26px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+} 
